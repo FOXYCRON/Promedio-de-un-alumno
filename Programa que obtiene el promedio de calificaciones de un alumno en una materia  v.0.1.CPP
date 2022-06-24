@@ -1,0 +1,25 @@
+    /* Programa que obtiene el promedio de calificaciones de un alumno en una materia */
+     #include<stdio.h>
+     #include<conio.h>
+
+     char nom[30], mat[20];
+     float c1, c2, c3, prom;
+
+     main()
+     {
+     		printf("Cinema Mochis \n \n");
+         printf(" Numero de personas: "); gets(nom);
+         printf("\n Materia: "); gets(mat);
+         printf("\n Primer calificaci%cn: ", 162); scanf("%f", &c1);
+         printf("\n Segunda calificaci%cn: ", 162); scanf("%f", &c2);
+         printf("\n Tercera calificaci%cn: ", 162); scanf("%f", &c3);
+
+         prom=(c1+c2+c3)/3;
+
+
+			printf("\n El Promedio es: %.1f ", prom);
+         
+         getch();
+
+
+     }
